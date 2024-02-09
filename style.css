@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #cffafe;
+}
+
+.accordion {
+  color: white;
+  width: 5%;
+  height: auto;
+  background-color: #164e63;
+  border: none;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.wrapper h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.wrapper .accordion-wrapper {
+  padding: 0 20px;
+}
+.wrapper .accordion-section {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  padding: 0 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.wrapper .accordion-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 20px;
+}
+.wrapper .accordion-content{
+    display: none;
+}
+  
